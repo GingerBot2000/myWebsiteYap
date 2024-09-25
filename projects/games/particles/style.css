@@ -1,0 +1,67 @@
+body{
+    font-family: 'boxy','regular','Courier New', Courier, monospace;
+    background-position: center;
+    text-align: center;
+
+    background-color: #f9dee3;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.65' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+
+    margin: 0px;
+}
+h1{
+    text-align: center;
+}
+
+#board{
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'boxy';
+    src: url('../../../fonts/boxy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url('../../../fonts/regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.back-projs{
+    text-align: left;
+    line-height: 0;
+    padding: 20px;
+    /* margin-bottom: 40px; */
+    background-color: white;
+}
+
+.back-projs button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px 30px 5px 30px;
+    font-family: initial;
+    border-radius: 10px;          
+    cursor: pointer;             
+    font-size: 25px;  
+}
+
+.back-projs button:hover{
+    border: 5px solid white;
+    border-top: none;
+    border-bottom: none;
+}
+
+.back-projs button:active{
+    color:black;
+    background-color: #f9dee3;
+}
+
+h1{
+    line-height: 0px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
